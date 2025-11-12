@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8082,
     allowedHosts: [
-      "ec2-3-24-21-241.ap-southeast-2.compute.amazonaws.com", // Figenix ec2 hostname
+      "ec2-13-204-80-21.ap-south-1.compute.amazonaws.com", // Figenix ec2 hostname
     ],
   },
   plugins: [react()],
